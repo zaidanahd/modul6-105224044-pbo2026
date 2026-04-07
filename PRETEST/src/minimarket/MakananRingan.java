@@ -12,7 +12,7 @@ public class MakananRingan extends Produk {
     // Override fungsi tampilkanDetail
     @Override
     public void tampilkanDetail() {
-        super.tampilkanDetail(); // Memanggil fungsi milik parent
+        super.tampilkanDetail(); 
         System.out.println("Rasa        : " + rasa);
     }
 }
